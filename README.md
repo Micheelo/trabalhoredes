@@ -27,7 +27,7 @@ OBS: A partir de então o servidor estará online e pronto aguardando novas cone
    ```bash
    Exemplo: "192.168.128.34"
    ```
-6. Indique o nome do arquivo que deseja enviar para o servidor. Como exemplo, colocamos dois arquivos em python dentro do container do cliente, sendo eles:
+6. Indique o nome de um arquivo que deseja enviar para o servidor. Como exemplo, colocamos dois arquivos em python dentro do container do cliente, sendo eles:
    ```bash
    imagem.py
    instalador.py
