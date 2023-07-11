@@ -12,7 +12,7 @@ Para utilizar a aplicação é necessário possuir previamente instalado em suas
    python3 server.py
    ```
 OBS: A partir de então o servidor estará online e pronto aguardando novas conexões.
-   ```
+   
 3. Precisaremos então executar a imagem do client em outra máquina. Novamente, ele não encontrará localmente e o arquivo será baixado através do código:
    ```bash
    docker run -it --rm --network=host michelom/client:v2 /bin/bash
